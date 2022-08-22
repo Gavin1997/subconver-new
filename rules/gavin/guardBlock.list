@@ -1,0 +1,21 @@
+# 小熊油耗
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-SUFFIX,cdn.xiaoxiongyouhao.com
+# mh
+DOMAIN-SUFFIX,chenyuanhao.top
+DOMAIN-SUFFIX,ty.lizehuandian.top
+
+# 小米
+DOMAIN-SUFFIX,t.track.ad.xiaomi.com
+DOMAIN-SUFFIX,diagnosis.ad.xiaomi.com
+DOMAIN-SUFFIX,api.ad.xiaomi.com
+DOMAIN-SUFFIX,pandora.mi.com
+DOMAIN-SUFFIX,pandora.xiaomi.com
+DOMAIN-SUFFIX,ad.mi.com
+DOMAIN-SUFFIX,starfish.sys.tv.mi.com
+DOMAIN-SUFFIX,resolver.msg.xiaomi.net
+DOMAIN-SUFFIX,msg.ptqy.gitv.tv
+DOMAIN-SUFFIX,tracking.miui.com
+DOMAIN-SUFFIX,rp.hpplay.cn
+DOMAIN-SUFFIX,data.mistat.xiaomi.com
