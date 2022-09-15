@@ -58,7 +58,7 @@ rule = ["[]🔰 节点选择", "[]🎯 全球直连", "[]🚀 手动切换"]
 [[custom_groups]]
 name = "🇭🇰 香港节点"
 type = "url-test"
-rule = ["(港|HK|Hong Kong)"]
+rule = ["!!GROUPID=0!!(港|HK|Hong Kong)"]
 url = "http://www.gstatic.com/generate_204"
 interval = 3000
 
@@ -66,7 +66,7 @@ interval = 3000
 name = "🇺🇲 美国节点"
 type = "url-test"
 rule = [
-    "(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
+    "!!GROUPID=0!!(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
 ]
 url = "http://www.gstatic.com/generate_204"
 interval = 3000
@@ -74,20 +74,25 @@ interval = 3000
 [[custom_groups]]
 name = "🇨🇳 台湾节点"
 type = "url-test"
-rule = ["(湾|新北|彰化|TW|Taiwan)"]
+rule = ["!!GROUPID=0!!(湾|新北|彰化|TW|Taiwan)"]
 url = "http://www.gstatic.com/generate_204"
 interval = 3000
 
 [[custom_groups]]
 name = "🇸🇬 新加坡节点"
 type = "url-test"
-rule = ["(新加坡|坡|狮城|SG|Singapore)"]
+rule = ["!!GROUPID=0!!(新加坡|坡|狮城|SG|Singapore)"]
 url = "http://www.gstatic.com/generate_204"
 interval = 3000
 
 [[custom_groups]]
 name = "🇸🇰🇷 韩国节点"
 type = "url-test"
-rule = ["(韩国|KR|Korea)"]
+rule = ["!!GROUPID=0!!(韩国|KR|Korea)"]
 url = "http://www.gstatic.com/generate_204"
 interval = 3000
+
+[[custom_groups]]
+name = "⛷ 游戏节点"
+type = "select"
+rule = ["(game|游戏|SSR)", "[]🔰 节点选择", "[]🎯 全球直连", "[]🚀 手动切换"]

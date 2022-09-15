@@ -31,6 +31,10 @@ group = "🍎 苹果服务"
 ruleset = "rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list"
 
 [[rulesets]]
+group = "⛷ 游戏节点"
+ruleset = "rules/DivineEngine/Surge/Ruleset/Extra/Game/Nintendo.list"
+
+[[rulesets]]
 group = "🎯 全球直连"
 ruleset = "rules/DivineEngine/Surge/Ruleset/China.list"
 
